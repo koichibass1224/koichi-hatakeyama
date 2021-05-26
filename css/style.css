@@ -1,0 +1,206 @@
+/*↓bodyのメンテ*/
+body{
+  margin:0px;
+  padding:0px;
+  text-align:center;
+  font-family:'Futura';
+  line-height:20px;
+}
+
+header{
+  width:100%;
+  height: 120px;
+  background-color: #000;
+  position :fixed ;
+  z-index: 10;
+}
+  
+ .p_logo{
+    width:100px;
+    float:left
+  }
+
+.header-right{
+  float:right;
+  margin-top:30px;
+  margin-right:10px;
+  /* font-family:'DIN'; */
+  color:gray;
+  opacity: 0.7;
+}
+
+.header-right a{
+  padding-right:30px;
+}
+
+.btn{
+  /* font-family:'DIN'; */
+  color:gray;
+  opacity: 0.7;
+}
+ .logo {
+    width: 30px;
+  }
+/*↑ここまでがheader*/
+
+.sample1-title1{
+  width:1200px;
+  /* width:100%; */
+  position:absolute;
+  /* position:relative; */
+  color:rgba(255, 255, 255, 0.918);
+  margin-top:150px;
+  z-index: 5;
+  opacity:0.5;
+  float:left;
+  text-align:left;
+} 
+
+.sample1-title1 h{
+  font-family:'Futura';
+  font-size: 60px;
+  letter-spacing: 20px;
+}
+
+.sample1-title1 p{
+  font-family:'SF Pro JP';
+  font-size: 12px;
+  letter-spacing: 7px;
+  width:70%;
+}
+
+.sample1-title1 span{
+  font-family:'SF Pro JP';
+  font-size: 20px;
+  letter-spacing: 20px;
+}
+
+.sample1-video{
+  z-index:1;
+}
+
+.a {
+  /* fz +tabキー*/
+  font-size:50px;
+  color:#000;
+  text-align: center;
+  padding-top:300px;
+  padding-bottom:100px;
+  line-height:100px;
+}
+
+.b{
+  font-size:20px;
+  color:gray;
+  text-align: center;
+  padding-bottom:100px;
+}
+
+.sample1 {letter-spacing: 30px;}
+.sample2 {letter-spacing: 10px;}
+.sample3 {letter-spacing: 4px;}
+/*↑タイトルの文字間調整*/
+
+.container2{
+  padding-bottom: 300px ;
+}
+
+
+/*SNSの登録*/
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+.twitter {
+  background-color: #55acee;
+}
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+.btn:hover {
+  opacity: 1;
+}
+
+/*ここからportfolio*/
+
+.wrapper-portfolio {
+  margin-top:400px;
+  padding-top:50px;
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.hidden_box label {
+  padding: 0px;
+  cursor :pointer;
+  position:	relative;
+}
+
+.caption{
+  opacity:0;
+  width:30px;
+  text-align:left;
+}
+.mask {
+	width:			100%;
+	height:			100%;
+	position:		absolute;
+	top:			0;
+	left:			0;
+	opacity:		0;
+	background-color:	rgba(0,0,0,0.4);
+	-webkit-transition:	all 0.2s ease;
+  transition:		all 0.2s ease;}
+
+  .portfolio1:hover .mask {
+    opacity:		1;
+  }
+
+.hidden_box label:hover {
+  opacity:0.5;
+  display:block;
+}
+
+.hidden_box input {
+  display: none;
+}
+.hidden_box .hidden_show {
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: 0.8s;
+}
+.hidden_box input:checked ~ .hidden_show {
+  padding: 0px;
+  height: auto;
+  opacity: 1;
+}
+
+.portfolio{
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto ;
+  max-width:100%;
+  }
+
+  .portfolio1{
+    display:flex
+  }
+  .portfolio2{
+    display:flex
+  }
+
+
+.portfolio p{
+float:left;
+opacity: 0.7;
+font-size:10px;
+text-indent: 1em;
+}
